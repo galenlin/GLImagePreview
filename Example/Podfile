@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GLImagePreview_Example' do
+  pod 'GLImagePreview', :path => '../'
+
+  target 'GLImagePreview_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
