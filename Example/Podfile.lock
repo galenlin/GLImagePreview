@@ -1,0 +1,24 @@
+PODS:
+  - GLImagePreview (0.1.0):
+    - MBProgressHUD (~> 1.0.0)
+    - SDWebImage (~> 3.8.2)
+  - MBProgressHUD (1.0.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - GLImagePreview (from `../`)
+
+EXTERNAL SOURCES:
+  GLImagePreview:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GLImagePreview: 7396c7d022e6db7954fc239f9107ee8cc590801e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: 17047abcb7edd4a30c77e41b832d6e96889f8ff4
+
+COCOAPODS: 1.0.1

@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface GLViewController : UIViewController
+@interface GLViewController : UITableViewController
 
 @end
