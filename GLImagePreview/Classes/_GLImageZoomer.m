@@ -89,7 +89,6 @@
     [self setMaximumZoomScale:1];
     
     // Load image from URL
-    NSLog(@"-- load for %i", (int)[self.superview.subviews indexOfObject:self]);
     [_zoomImageView sd_setImageWithURL:self.imageURL placeholderImage:self.placeholderImage options:SDWebImageProgressiveDownload progress:^(NSInteger receivedSize, NSInteger expectedSize) {
         if (expectedSize > 0) {
             CGFloat percent = (float)receivedSize / (float)expectedSize;
@@ -123,8 +122,6 @@
     if (_zoomImageView != nil) {
         return;
     }
-    
-    NSLog(@"-- init for %i", (int)[self.superview.subviews indexOfObject:self]);
     
     if (self.placeholderImage == nil) {
         CGSize size = _initialSize;
