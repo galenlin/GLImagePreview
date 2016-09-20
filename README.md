@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/GLImagePreview.svg?style=flat)](http://cocoapods.org/pods/GLImagePreview)
 [![Platform](https://img.shields.io/cocoapods/p/GLImagePreview.svg?style=flat)](http://cocoapods.org/pods/GLImagePreview)
 
-[![Snapshot](https://cloud.githubusercontent.com/assets/5291591/18656638/792195fc-7f25-11e6-82c3-55128a744619.gif)]
+![Snapshot](https://cloud.githubusercontent.com/assets/5291591/18656638/792195fc-7f25-11e6-82c3-55128a744619.gif)
 
 ## Example
 
