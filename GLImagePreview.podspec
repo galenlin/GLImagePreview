@@ -25,7 +25,7 @@ iOS图片预览，支持缩放效果，支持预览一组图片
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'galenlin' => 'oolgloo.2012@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/GLImagePreview.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/galenlin/GLImagePreview.git', :tag => s.version.to_s }
   s.social_media_url = 'https://weibo.com/galenlin'
 
   s.ios.deployment_target = '7.0'
