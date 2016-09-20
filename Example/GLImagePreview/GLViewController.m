@@ -46,7 +46,7 @@ static int kCellCount = 10;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [GLImagePreview preview:self count:1 index:indexPath.row];
+    [GLImagePreview preview:self count:kCellCount index:indexPath.row];
 }
 
 #pragma mark - Preview Delegate
